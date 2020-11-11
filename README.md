@@ -25,7 +25,8 @@ route.beforeEach((to,from,next)=>{
 `/src/router/index.js`
 ## 菜单栏设置(子菜单设置完成后，还需设置路由才能完成跳转)
 `/src/components/Index.vue`
-
+## 服务器配置
+`https://router.vuejs.org/zh/guide/essentials/history-mode.html#%E5%90%8E%E7%AB%AF%E9%85%8D%E7%BD%AE%E4%BE%8B%E5%AD%90`
 ## Build Setup
 
 ``` bash
