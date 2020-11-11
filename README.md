@@ -7,6 +7,12 @@
 - 面包屑导航栏
 - 全局路由与子路由互相跳转
 
+# 效果展示
+![登陆页面](https://pic.imgdb.cn/item/5fab5d741cd1bbb86be9ce35.png)
+![登陆页面](https://pic.imgdb.cn/item/5fab5da81cd1bbb86be9d718.png)
+# demo地址
+[http://admin.zozoo.net/home](http://admin.zozoo.net/home)
+
 ## 中间件设置
 `/src/router/index.js`
 ```
