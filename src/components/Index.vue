@@ -37,8 +37,8 @@
             <ul class="menu-wrapper" v-if="item.fold">
               <template v-for="(child,childIndex) in item.children">
                 <li
-                  class="menu-item child-item"
-                  :class="{'child-active':child.active}"
+                  class="menu-item"
+                  :class="{'child-active':child.active,'child-item':!hideMenu}"
                   @click="selectMenu(child.url,index,childIndex)"
                 >
                   <i :class="child.icon"></i>

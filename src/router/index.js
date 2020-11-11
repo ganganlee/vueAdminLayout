@@ -48,7 +48,8 @@ const route = new Router({
       name: 'Login',
       component: Login,
     },
-  ]
+    {path: '*', redirect: '/'}//路由重定向
+  ],
 });
 
 //路由中间件
